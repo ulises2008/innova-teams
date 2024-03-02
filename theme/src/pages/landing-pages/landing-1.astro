@@ -1,14 +1,13 @@
 ---
 import {Icon} from 'astro-icon'
 import {
-  AnnouncementBar,
 	Button,
 	CustomerQuoteSection,
 	ThreeColumnTextSection,
 	YouTubeEmbedSection,
   StickyTextImageSection,
   CtaCardSection
-} from '@littlesticks/odyssey-theme-components';
+} from "@littlesticks/odyssey-theme-components";
 import Layout from '../../layouts/Page.astro';
 import TextAndImageHero from '../../components/sections/heros/TextAndImageHero.astro';
 
@@ -18,16 +17,21 @@ const seo = {
 };
 ---
 
-<AnnouncementBar text="Read Our Latest Blog Post" href="/blog/posts/remote-work-mental-health/" slot="announcement-bar"/>
 <Layout seo={seo} >
 	<TextAndImageHero reversed>
 		<div slot="text-container">
-			<h1>Don't Reinvent the Wheel</h1>
-			<p>Use Odyssey Theme to jumpstart your company's marketing website.</p>
+			<h1>Banca Móvil para Caja Sullana</h1>
+			<p>En respuesta a las demandas del mercado actual y por encargo
+				de la empresa EYG Grupo, diseñamos y desarrollamos una aplicación
+				móvil para Caja Sullana que ofrece a los clientes la posibilidad
+				de realizar operaciones bancarias de manera rápida y segura desde
+				sus dispositivos móviles. <br/> Nuestra aplicación, disponible tanto en
+				Android como en iOS, brinda una experiencia intuitiva y funcional
+				que satisface las necesidades de los usuarios en movimiento.</p>
 		</div>
 		<div slot="btns-container">
-			<Button href="/theme/get-started" customIcon
-				>Get Started <Fragment slot="icon">
+			<Button href="/company/contact" customIcon
+				>Contactanos <Fragment slot="icon">
           <Icon name="ic:baseline-chevron-right"/>
         </Fragment></Button
 			>
