@@ -19,11 +19,11 @@ const publishedTeamMembers = await getCollection('team', ({ data }) => {
 		<div slot="text-container">
 			<h1>Nosotros</h1>
 			<p>
-				Nuestra misión es proporcionar soluciones innovadoras que permitan a las empresas optimizar sus procesos y
-				alcanzar sus objetivos de manera eficiente.
-				Con una combinación de experiencia técnica y un enfoque centrado en el cliente, en INNOVA TEAM nos esforzamos
-				por entender las necesidades específicas de
-				cada organización para ofrecer soluciones personalizadas y de calidad.
+				Nuestra misión en INNOVA TEAMS es ofrecer soluciones innovadoras que posibiliten a las empresas optimizar sus
+				procesos y alcanzar eficientemente sus objetivos. A través de la conjunción de una sólida experiencia técnica y
+				un enfoque centrado en el cliente, nos dedicamos a comprender a fondo las necesidades particulares de cada
+				organización. De este modo, brindamos soluciones personalizadas y de alta calidad para contribuir al éxito de
+				nuestros clientes.
 			</p>
 		</div>
 		<picture slot="image-container">
@@ -34,6 +34,8 @@ const publishedTeamMembers = await getCollection('team', ({ data }) => {
 			/>
 		</picture>
 	</HeroSection>
+
+	<h2 class="text-center mt-16">Nuestro Equipo</h2>
 	<div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
 		{
 			publishedTeamMembers.map((teamMemberEntry) => (
